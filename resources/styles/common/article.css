@@ -1,0 +1,28 @@
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.nav-next:hover {
+    color: green;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    transition: all .2s;
+}
+.nav-previous:hover {
+    color: green;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    transition: all .2s;
+}
+
+.all-posts {
+    display: flex;
+    margin-top: 1rem;
+}
+.all-posts a:hover {
+    color: green;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    transform: none;
+}

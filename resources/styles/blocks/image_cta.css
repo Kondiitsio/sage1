@@ -1,0 +1,78 @@
+.imagecta {
+    background-color: rgb(0, 0, 0);
+    padding: 5rem 2rem;
+    vertical-align: baseline;
+}
+.imagecta img {
+  height: auto;
+}
+
+.column {
+  float: left;
+  padding: 2rem;
+}
+.left {
+  width: 65%;
+}
+.right {
+  width: 35%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button {
+  background-color: transparent;
+  border: solid 2px;
+  color: white;
+  width: 15rem;
+  height: 5rem;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25rem;
+  margin: 2.5rem 0;
+  cursor: pointer;
+}
+button:hover {
+  color: green;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+
+@media screen and (max-width: 1100px) {
+  .imagecta {
+    padding: 2rem 2rem;
+  }
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .left {
+      width: 100%;
+  }
+  .right {
+      width: 100%;
+  }
+  button {
+      margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imagecta {
+    padding: 2rem 1.2rem;
+    text-align: center;
+  }
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .imagecta {
+    padding: 2rem 1rem;
+  }
+}

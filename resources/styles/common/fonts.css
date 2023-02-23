@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Raleway-VariableFont_wght;
+    src: url('~@fonts/Raleway-VariableFont_wght.ttf');
+    /* weight axis (100-900) */
+}
+@font-face {
+    font-family: OpenSans-VariableFont_wdth,wght;
+    src: url('~@fonts/OpenSans-VariableFont_wdth,wght.ttf');
+    /* weight axis (300-800) */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    font-variation-settings: "wght" 500;
+}
+
+p {
+    font-family: OpenSans-VariableFont_wdth,wght, sans-serif;
+    font-variation-settings: "wght" 500;
+}
+
+a {
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    font-variation-settings: "wght" 400;
+}
+
+strong {
+    font-variation-settings: "wght" 600;
+}
+
+.hero p {
+    font-family: OpenSans-VariableFont_wdth,wght, sans-serif;
+    font-variation-settings: "wght" 400;
+}
+
+.card h3 {
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    font-variation-settings: "wght" 700;
+}
+
+button a {
+    font-family: Raleway-VariableFont_wght, sans-serif;
+    font-variation-settings: "wght" 500;
+}

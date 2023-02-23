@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+a:hover {
+    color: green;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+section {
+    height: auto;
+}
+.row {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+

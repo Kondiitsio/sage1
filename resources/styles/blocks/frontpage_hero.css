@@ -1,0 +1,31 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero p {
+    font-size: 4rem;
+    font-style: italic;
+    text-align: center;
+
+    animation-name: moveInRight;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+}
+
+@media screen and (max-width: 800px) {
+    .hero p {
+      font-size: 3rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .hero p {
+      font-size: 2rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .hero p {
+      font-size: 1rem;
+    }
+}
